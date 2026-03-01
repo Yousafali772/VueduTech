@@ -6,3 +6,9 @@
 body{
   width: 100% !important;
 }
+.down-css{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+}
