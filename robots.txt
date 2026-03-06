@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 ""
-Sitemap: https://vuedutech.com/sitemap.xml  
-Sitemap: https://www.vuedutech.com/sitemap.xml  
+Sitemap: http://vuedutech.com/sitemap.xml
