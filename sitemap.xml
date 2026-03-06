@@ -8,57 +8,74 @@
 
 
 <url>
-  <loc>https://www.vuedutech.com/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
-</url>
-
-<url>
-  <loc>https://vuedutech.com/handout%20notes/Handout/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/index.html</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/handout%20notes/Highlight%20Handout/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/handout%20notes/Handout/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com//handout%20notes/Short%20Vedio%20Lecture/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/handout%20notes/Highlight%20Handout/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/past%20paper/midterm%20past%20paper/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/handout%20notes/Short%20Vedio%20Lecture/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/past%20paper/midterm%20pastpaper%20video/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/past%20paper/midterm%20past%20paper/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/past%20paper/finalterm%20past%20paper/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/past%20paper/midterm%20pastpaper%20video/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/past%20paper/finalterm%20past%20paper%20video/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/past%20paper/finalterm%20past%20paper/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/Vu%20Helper/footer/about/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/past%20paper/finalterm%20past%20paper%20video/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/footer/term%20&%20condition/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/Vu%20Helper/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/footer/privacy%20policy/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/footer/about/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://vuedutech.com/footer/contact/</loc>
-  <lastmod>2026-03-03T22:32:20+00:00</lastmod>
+  <loc>http://vuedutech.com/footer/contact/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vuedutech.com/footer/term%20&amp;%20condition/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vuedutech.com/footer/privacy%20policy/</loc>
+  <lastmod>2026-03-06T14:27:04+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
