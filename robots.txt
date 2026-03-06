@@ -1,4 +1,8 @@
+User-agent: naverbot
+Disallow: /
+User-agent: yeti
+Disallow: /
 User-agent: *
-Allow: /
-""
+Disallow: 
+Disallow: /cgi-bin/
 Sitemap: http://vuedutech.com/sitemap.xml
