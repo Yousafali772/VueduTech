@@ -12,340 +12,1071 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
-    <div class="container-fluid">
-        <a class="navbar-brand ms-lg-3 ms-0" href="/index.html">
-            <img src="/assets/img/logo.png" alt="Vu Update tech" width="75">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto me-lg-3 me-0 mb-2 mb-lg-0 d-flex gap-3">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Handout Notes
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/handout notes/Handout/">Handouts</a></li>
-                        <li><a class="dropdown-item" href="/handout notes/Highlight Handout/">Highlighted Handouts</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/handout notes/Short Vedio Lecture/">Short Lecture Video</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Past Paper
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/past paper/midterm past paper/">Midterms past Papers</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/past paper/midterm pastpaper video/">Midterms past Papers
-                                videos</a></li>
-                        <li><a class="dropdown-item" href="/past paper/finalterm past paper/">Finalterms past Papers</a>
-                        </li>
-                        <li><a class="dropdown-item" href="/past paper/finalterm past paper video/">Finalterms past
-                                Papers videos</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/Vu Helper/">Vu Helpers</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/footer/about/">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/footer/contact/">Contact Us</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-lg-3 ms-0" href="/index.html">
+                <img src="/assets/img/logo.png" alt="Vu Update tech" width="75">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-lg-3 me-0 mb-2 mb-lg-0 d-flex gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Handout Notes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/handout notes/Handout/">Handouts</a></li>
+                            <li><a class="dropdown-item" href="/handout notes/Highlight Handout/">Highlighted
+                                    Handouts</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/handout notes/Short Vedio Lecture/">Short Lecture
+                                    Video</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Past Paper
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/past paper/midterm past paper/">Midterms past Papers</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/past paper/midterm pastpaper video/">Midterms past
+                                    Papers
+                                    videos</a></li>
+                            <li><a class="dropdown-item" href="/past paper/finalterm past paper/">Finalterms past
+                                    Papers</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/past paper/finalterm past paper video/">Finalterms past
+                                    Papers videos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Vu Helper/">Vu Helpers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/footer/about/">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/footer/contact/">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
     <!-- Main start code  -->
     <main class="mt-4">
         <div class="container">
-            <h1 class="text-center fw-bold">Virtual University of Pakistan
-                <span class="fw-bold text-primary">2026</span>
-                <br />
-                Admission, Fee
-                Structure, LMS & Programs Guide
+            <h1 class="h1-css text-center mt-5">
+                VU of Pakistan 2026
+                <span id="typing"></span>
             </h1>
-            <div class="text-start">
-                <h2 class="mt-4  mb-4 fw-bold">
-                    Introduction: </h2>
-                <p>
-                    Looking for complete information about Virtual University of Pakistan in <span
-                        class="fw-bold text-primary">2026</span>? This guide
-                    covers VU admission <span class="fw-bold text-primary">2026</span>, fee
-                    structure, VULMS login process, programs offered, exams, scholarships, and student support
-                    services.
-                    <br />
-                    Virtual University of Pakistan is one of the leading public sector universities offering
-                    online and distance learning
-                    programs across Pakistan and internationally. Established in <span
-                        class="fw-bold text-primary">2002</span>,
-                    VU provides affordable,
-                    flexible, and
-                    technology-driven education.
-                </p>
+            <!-- 1 para and img -->
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="mt-4">
+                        If you are searching for authentic and updated information about the Virtual University of
+                        Pakistan,
+                        this
+                        complete <span class="text-primary fw-bold">2026</span>
+                        guide covers everything in detail.<span class="text-primary fw-bold"> From the virtual
+                            university
+                            admission process, VULMS login, fee
+                            structure,
+                            associate
+                            degree programs, BS programs, campuses, scholarships, to solved MCQs, past papers, LMS
+                            guides,
+                            and
+                            student
+                            support
+                            system, everything is explained clearly in one place.</span>
+                    </p>
+                    <p class="mt-3">Virtual University (VU) is Pakistan’s first fully online public sector university
+                        operating under modern
+                        digital
+                        infrastructure. It provides flexible, affordable, and technology-based education to students
+                        across<span class="text-primary fw-bold"> Lahore,
+                            Karachi,
+                            Islamabad, Rawalpindi, Faisalabad (FSD Pakistan), Multan, Bahawalpur (BWP Pakistan), and
+                            other
+                            cities.</span>
+                    </p>
+                </div>
+                <div class="col-12 col-md-6"><img src="/assets/img/vu/1.jpeg" alt="Vu img"
+                        class="img-fluid mt-3 rounded-3">
+                </div>
             </div>
-            <div class="">
-                <h2 class="mt-4 mb-4 fw-bold">
-                    VU Admission <span class="fw-bold text-primary">2026</span> Complete Process
+            <!-- Introduction to Virtual University of Pakistan -->
+            <div>
+                <h2 class="mt-5 text-center">Introduction to Virtual University of Pakistan
+                </h2>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p class="mt-4">
+                            Established in <span class="text-primary fw-bold">2002</span>, the Virtual University of
+                            Pakistan
+                            was created to promote distance learning through <span
+                                class="text-primary fw-bold">Information
+                                and
+                                Communication Technologies (ICT). Unlike traditional universities, VU delivers lectures
+                                through
+                                recorded video sessions,
+                                digital handouts, and an advanced Learning Management System (LMS).</span>
+
+                        </p>
+                        <p class="mt-3">
+                            The university is recognized by the Higher Education Commission (HEC) of Pakistan. This
+                            means VU
+                            degrees are valid for
+                            <span class="text-primary fw-bold">government jobs, private sector employment, and further
+                                studies
+                                like MS, M.Phil, and PhD.</span>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="d-flex justify-content-center">
+                            <div class="card card-css mt-3">
+                                <p class="card-desc card-desc-css">Students often search online for:</p>
+
+                                <ul class="feature-list feature-list-css">
+                                    <li class="li-css">
+                                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                        virtual university
+                                    </li>
+                                    <li class="li-css">
+                                        <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                        virtual university of pakistan
+                                    </li>
+                                    <li class="li-css">
+                                        <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                        <a href="https://www.vu.edu.pk/" target="_blank" rel="noopener noreferrer"
+                                            class="text-decoration-none text-primary">
+                                            www virtual university edu pk
+                                        </a>
+                                    </li>
+                                    <li class="li-css">
+                                        <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                            stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                        virtual university portal
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- cardes  -->
+            <div class="row">
+                <!-- card-1  -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                    <div class="card card-css mt-5">
+                        <h2 class="card-title card-title-css">Virtual University Date Sheet 2026.</h2>
+                        <ul class="feature-list feature-list-css">
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                How to check the date sheet
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Midterm & Final date sheet
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                LMS notification system
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Exam center selection
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- card-2  -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                    <div class="card card-css mt-5">
+                        <h2 class="card-title card-title-css">Virtual University Result Checking Method.</h2>
+                        <h3 class="card-title-css">How to Check VU Result Online?</h3>
+                        <ul class="feature-list feature-list-css">
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Log in to VULMS
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Go to the Result Section
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Download transcript
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                CGPA calculation
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                    <div class="card card-css mt-5">
+
+                        <h2 class="card-title card-title-css">Virtual University Contact Number & Support System.</h2>
+
+                        <h3 class="card-title-css">Virtual University Date Sheet 2026</h3>
+
+                        <ul class="feature-list feature-list-css">
+
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                virtual university contact number
+                            </li>
+
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                support system
+                            </li>
+
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                vu helpline
+                            </li>
+
+                            <!-- Hidden Items -->
+                            <li class="li-css extra-item">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Official helpline
+                            </li>
+
+                            <li class="li-css extra-item">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Campus contact
+                            </li>
+
+                            <li class="li-css extra-item">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Email support
+                            </li>
+
+                            <li class="li-css extra-item">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Ticket generator system
+                            </li>
+
+                        </ul>
+
+                        <div class="see-more-btn">See More</div>
+
+                    </div>
+                </div> <!-- card-4  -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                    <div class="card card-css mt-5">
+                        <h2 class="card-title card-title-css">Virtual University Admission Last Date 2026.</h2>
+                        <ul class="feature-list feature-list-css">
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Spring last date
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Fall last date
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Late fee policy
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon  check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Exam center selection
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Complete Admission ProcessF -->
+            <div>
+                <h2 class="mt-5">
+                    Complete Admission Process
+                </h2>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <ul class="feature-list feature-list-css mt-3">
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Create an account on the official admission portal
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Select desired degree program
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Fill in personal and academic details
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Upload required documents
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Generate a fee challan
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Pay the admission processing fee
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Wait for confirmation and enrollment
+                            </li>
+                        </ul>
+                        <h3>Admission Requirements</h3>
+                        <ul class="feature-list feature-list-css mt-3">
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Intermediate (FA, FSc, ICS, ICom) for BS programs
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Bachelor’s degree for MS programs
+                            </li>
+                            <li class="li-css">
+                                <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12" />
+                                </svg>
+                                Relevant qualification for M.Phil and PhD
+                            </li>
+                        </ul>
+                        <p class="">Students from Lahore, Karachi, Rawalpindi, Islamabad, Multan, Faisalabad,
+                            Gujranwala,
+                            and
+                            other cities can apply online
+                            without visiting the campus.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="/assets/img/vu/2.jpeg" alt="Admission Process" class="img-fluid  mt-3 rounded-3">
+                    </div>
+                </div>
+            </div>
+            <!-- Programs Offered at Virtual University -->
+            <div>
+                <h2 class="text-center mt-5">Programs Offered at Virtual University
                 </h2>
                 <p>
-                    Virtual University offers admissions multiple times a year for undergraduate, graduate, and
-                    postgraduate programs.
+                    Virtual University offers a wide range of undergraduate, associate degree, graduate, and
+                    postgraduate
+                    programs.
+                </p>
+                <h3>BS Programs (4-Year Degree)</h3>
+                <p>Many students search:</p>
+                <ul class="feature-list feature-list-css mt-3">
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        bs in cs
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        BA vs. BS in Computer Science
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        A bachelor’s degree is 4 years
+                    </li>
+                </ul>
+                <p>Popular BS Programs include:</p>
+                <ul class="feature-list feature-list-css mt-3">
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        BS Computer Science (BSCS)
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        BS Information Technology
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        BS Business Administration (BBA)
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        BS Accounting & Finance
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        BS Psychology
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        BS Education
+                    </li>
+                </ul>
+                <p>Yes, a BS degree is typically 4 years (8 semesters).
+                </p>
+                <h3>Associate Degree Program (ADP) 2 Year Degree</h3>
+                <p>High search keywords include:</p>
+                <ul class="feature-list feature-list-css mt-3">
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        Associate degree meaning
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        associates degree meaning
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        2-year associate degree
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        degree in 2 years
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        meaning of an associate degree
+                    </li>
+                </ul>
+                <p>
+                    Associate Degree Program (ADP) is a 2-year undergraduate program equivalent to traditional BA/BSc.
+                    It is
+                    ideal for
+                    students who want quicker entry into the job market or later transfer to a 4-year BS program.
+                </p>
+
+                <h3>Graduate & Postgraduate Programs</h3>
+                <p>Virtual University also offers:</p>
+                <ul class="feature-list feature-list-css mt-3">
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        MBA (Multiple Specializations)
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        MS Computer Science
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        M.Phil
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        PhD Programs
+                    </li>
+                </ul>
+                <p>These programs are suitable for professionals looking to enhance career growth.</p>
+            </div>
+            <!-- Virtual University LMS (VULMS) Login Guide 2026 -->
+            <div>
+                <h2 class="mt-5 text-center">Virtual University LMS (VULMS) Login Guide 2026</h2>
+                <p>One of the most searched topics is:</p>
+                <ul class="ms-2 list-unstyled">
+                    <li>vulms</li>
+                    <li>vulms login</li>
+                    <li>lms vu</li>
+                    <li>Virtual University LMS Login</li>
+                </ul>
+                <p>
+                    The Virtual University Learning Management System (VULMS) is the digital academic platform used by
+                    students.
                 </p>
             </div>
-
-            <h3>
-                Admission Requirements:
-            </h3>
-            <ul>
-                <li>Minimum qualification as per program criteria</li>
-                <li>Online application submission</li>
-                <li>Fee payment confirmation</li>
-                <li>Document verification</li>
-            </ul>
-            <p>Students can apply online through the official admission portal.</p>
-            <h2 class="fw-bold">Programs Offered by Virtual University
-            </h2>
-            <div class="container">
-                <table class="table table-striped-columns mt-4">
-                    <thead>
-                        <tr>
-                            <th scope="col" class="text-primary fw-bold">Undergraduate Programs</th>
-                            <th scope="col" class="text-primary fw-bold">Graduate Programs</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                BS Computer Science (BSCS)
-                            </td>
-                            <td>
-                                MBA (Multiple Specializations)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                BS Psychology
-                            </td>
-                            <td>
-                                MS Programs
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                BS Business Administration
-                            </td>
-                            <td>
-                                PhD Programs
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                Education & IT programs
-                            </td>
-                            <td>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <!-- What Can Students Do on LMS? -->
+            <div>
+                <h2 class="mt-5 text-center">What Can Students Do on LMS?</h2>
+                <ul class="list-unstyled">
+                    <li>✔ Submit assignments
+                    </li>
+                    <li>✔ Attempt quizzes</li>
+                    <li>
+                        ✔ Participate in GDB (Graded Discussion Board)</li>
+                    <li>
+                        ✔ Download handouts</li>
+                    <li>
+                        ✔ Watch recorded lectures</li>
+                    <li>
+                        ✔ Check date sheet</li>
+                    <li>
+                        ✔ View results</li>
+                    <li>✔ Track academic progress</li>
+                </ul>
+                <p>
+                    Students can log in using their Student ID and password through the official LMS portal.
+                    The LMS system is one of the strongest features of VU compared to traditional universities.
+                </p>
             </div>
-            <p>Each program follows a semester-based online learning system.
-            </p>
-
-            <h2 class="mt-4 mb-4 fw-bold">
-                VU LMS Login Student Portal Guide
-            </h2>
-            <p>The Virtual University Learning Management System (VULMS) is the main platform for students.<br>
-                Through VULMS, students can:
-            </p>
-            <ul>
-                <li>Submit assignments</li>
-                <li>Attempt quizzes</li>
-                <li>Participate in GDB</li>
-                <li>Download handouts</li>
-                <li>Check results</li>
-                <li>Track academic progress</li>
-            </ul>
-            <p>
-                Students can access VULMS using their student ID and password via the official portal.
-            </p>
-            <h2 class="mt-4 mb-4 fw-bold">
-                Virtual University Fee Structure <span class="fw-bold text-primary">2026</span>
-            </h2>
-            <p>VU offers affordable education compared to many traditional universities.<br>
-                Students can:
-            </p>
-            <ul>
-                <li>Download fee challan online</li>
-                <li>Pay through bank or online payment options</li>
-                <li>Apply for scholarships</li>
-            </ul>
-            <h3>
-                Scholarships Available:
-            </h3>
-            <ul>
-                <li>Need-based scholarships</li>
-                <li>Merit-based scholarships</li>
-                <li>Financial assistance programs</li>
-            </ul>
-            <h2 class="mt-4 mb-4 fw-bold">
-                VU Exam System
-            </h2>
-            <p>
-                Virtual University follows a structured evaluation system:
-            </p>
-            <ol>
-                <li>Assignments</li>
-                <li>Quizzes</li>
-                <li>Graded Discussion Board (GDB)</li>
-                <li>Midterm Exams</li>
-                <li>Final Term Exams</li>
-            </ol>
-            <p>
-                Exams are conducted in designated centers across Pakistan.
-            </p>
-            <h2 class="fw-bold">Student Support & Campuses</h2>
-            <p>
-                VU operates multiple campuses and exam centers across Pakistan to support students with:
-            </p>
-            <ul>
-                <li>Technical assistance</li>
-                <li>Academic guidance</li>
-                <li>Examination arrangements</li>
-                <li>Regional coordination</li>
-            </ul>
-            <h2 class="mt-4 mb-4 fw-bold">Frequently Asked Questions (FAQs)</h2>
-            <div class="accordion mb-4 mt-4" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                            aria-controls="panelsStayOpen-collapseOne">
-                            Is Virtual University degree recognized?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                        <div class="accordion-body">Yes, VU is a public sector university recognized by HEC Pakistan.
-                        </div>
+            <!-- Virtual University Fee Structure 2026 -->
+            <div>
+                <h2 class="mt-5 text-center">Virtual University Fee Structure 2026</h2>
+                <p>Students often compare VU with universities like:
+                </p>
+                <ul class="list-unstyled ms-2">
+                    <li>University of the Punjab
+                    </li>
+                    <li>COMSATS University Islamabad
+                    </li>
+                    <li>University of Karachi
+                    </li>
+                </ul>
+                <p>Virtual University is known for its affordable fee structure.
+                </p>
+                <h3>Fee Components</h3>
+                <ul class="list-unstyled ms-2">
+                    <li>Admission processing fee</li>
+                    <li>Per credit hour tuition</li>
+                    <li>Examination fee</li>
+                    <li>LMS & student services charges</li>
+                </ul>
+                <p>Students can download the fee challan and pay through the designated banks.</p>
+                <p>Compared with traditional on-campus universities, VU is more cost-effective and suitable for
+                    middle-class
+                    families.</p>
+            </div>
+            <!-- Virtual University Campuses & Exam Centers -->
+            <div>
+                <h2 class="mt-5 text-center">Virtual University Campuses & Exam Centers</h2>
+                <p>Even though it is an online university, VU has physical campuses and exam centers across Pakistan.
+                </p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p>Students search:</p>
+                        <ul class="list-unstyled ms-2">
+                            <li>virtual university near me</li>
+                            <li>Virtual University Lahore</li>
+                            <li>Virtual University Karachi</li>
+                            <li>Virtual University Islamabad</li>
+                            <li>Virtual University Rawalpindi</li>
+                            <li>Virtual University Faisalabad</li>
+                            <li>Virtual University Campus Rawalpindi</li>
+                        </ul>
+                        <p>Major campuses include:</p>
+                        <ul class="list-unstyled ms-2">
+                            <li>Lahore (Davis Road & Garhi Shahu)</li>
+                            <li>Karachi</li>
+                            <li>Islamabad</li>
+                            <li>Rawalpindi</li>
+                            <li>Faisalabad</li>
+                            <li>Multan</li>
+                            <li>Bahawalpur</li>
+                            <li>Gujranwala</li>
+                        </ul>
+                        <p>These campuses facilitate examinations and student support services.</p>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseTwo">
-                            How to apply for VU admission <span class="fw-bold text-primary">2026</span>?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                        <div class="accordion-body">
-                            Students can apply online through the official admission portal.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseThree">
-                            How to login to VULMS?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                        <div class="accordion-body">
-                            Use your student ID and password on the official LMS portal.
-                        </div>
+                    <div class="col-12 col-md-6"><img src="/assets/img/vu/3.jpeg" alt="3"
+                            class="img-fluid mt-3 rounded-3">
                     </div>
                 </div>
             </div>
-            <h2 class="mt-4 mb-4 fw-bold">
-                Conclusion
-            </h2>
-            <p>
-                Virtual University of Pakistan continues to provide accessible, flexible, and affordable higher
-                education
-                in <span class="fw-bold text-primary">2026</span>.
-                Whether you are applying for admission, checking fee details, or accessing VULMS, this guide helps you
-                navigate
-                everything easily.
-            </p>
+            <!-- Solved MCQs, Past Papers & Assignment Help -->
+            <div>
+                <h2 class="text-center mt-5">Solved MCQs, Past Papers & Assignment Help</h2>
+                <p>Our platform provides valuable academic resources for VU students, including:</p>
+                <ul class="list-unstyled ms-3">
+                    <li>✔ Virtual University Solved MCQs</li>
+                    <li>✔ Midterm Past Papers</li>
+                    <li>✔ Final Term Past Papers</li>
+                    <li>✔ GDB Solutions</li>
+                    <li>✔ Assignment Help</li>
+                    <li>✔ Handouts PDF</li>
+                    <li>✔ LMS Guides</li>
+                </ul>
+                <p>These resources are especially helpful for BSCS, BBA, MCS, and ADP students preparing for exams.</p>
+                <p>Students interested in networking certifications often search:</p>
+                <ul class="list-unstyled ms-3">
+                    <li>netacad</li>
+                    <li>netacad login</li>
+                    <li>Cisco Academy login</li>
+                    <li>certification CCNA Cisco</li>
+                </ul>
+                <p>Professional training programs like Cisco Networking Academy offer IT certifications that complement
+                    VU
+                    degrees.
+                </p>
+            </div>
+            <!-- Scholarships & Financial Assistance Programs -->
+            <div>
+                <h2 class="text-center mt-5">Scholarships & Financial Assistance Programs</h2>
+                <p>Students frequently search:</p>
+                <ul class="feature-list feature-list-css mt-3">
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        honhar scholarship
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        honhaar scholarship
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        peef
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        PM Laptop Scheme 2025
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        laptop scheme 2025
+                    </li>
+                </ul>
+                <p>Virtual University students may apply for:</p>
+                <ul class="feature-list feature-list-css mt-3">
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        Need-based scholarships
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        Merit-based scholarships
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        PEEF financial assistance
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        Government laptop schemes
+                    </li>
+                    <li class="li-css">
+                        <svg class="check-icon check-icon-css" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12" />
+                        </svg>
+                        Other provincial aid programs
+                    </li>
+                </ul>
+                <p>These initiatives help deserving students continue higher education without financial burden.</p>
+            </div>
+            <!-- Why Choose Virtual University in 2026? -->
+            <div>
+                <h2 class="text-center mt-5">Why Choose Virtual University in 2026?</h2>
+                <p>Here are the major advantages of choosing VU:</p>
+                <ul class="list-unstyled ms-3">
+                    <li>✅ Fully online learning system</li>
+                    <li>✅ Affordable fee structure</li>
+                    <li>✅ Recognized public sector degree</li>
+                    <li>✅ Flexible schedule for working professionals</li>
+                    <li>✅ Nationwide exam centers</li>
+                    <li>✅ Modern LMS system</li>
+                    <li>✅ Recorded lectures available anytime</li>
+                    <li>✅ Suitable for overseas Pakistani students</li>
+                </ul>
+                <p>If you are comparing Pakistani universities, Virtual University stands out due to its digital model
+                    and
+                    flexibility.</p>
+            </div>
+            <!-- Frequently Asked Questions (FAQs) -->
+            <div>
+                <h2 class="text-center mt-5">Frequently Asked Questions (FAQs)</h2>
+                <section class="faq mt-3">
+                    <div class="row">
+                        <!-- faq's 1 -->
+                        <div class="col-12 col-md-6">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Is a Virtual University degree recognized?
+                                    <span class="icon">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>
+                                        Yes, the Virtual University of Pakistan is recognized by HEC Pakistan, and its
+                                        degrees
+                                        are
+                                        valid nationwide.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- faq's 2 -->
+                        <div class="col-12 col-md-6">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    How to apply for Virtual University admission 2026?
+                                    <span class="icon">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>
+                                        Students can apply online through the official admission portal during the
+                                        Spring or
+                                        Fall
+                                        semester.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- faq's 3 -->
+                        <div class="col-12 col-md-6">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    How to log in to VULMS?
+                                    <span class="icon">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>
+                                        Visit the official LMS website and enter your Student ID and password.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- faq's 4 -->
+                        <div class="col-12 col-md-6">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    What is Associate Degree mean?
+                                    <span class="icon">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>
+                                        An associate degree is a 2-year undergraduate program equivalent to a BA/BSc.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- faq's 5 -->
+                        <div class="col-12 col-md-6">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Does Virtual University offer physical classes?
+                                    <span class="icon">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>
+                                        VU mainly offers online classes, but exams are conducted at designated campuses.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- faq's 6 -->
+                        <div class="col-12 col-md-6">
+                            <div class="faq-item">
+                                <button class="faq-question">
+                                    Is BS Computer Science difficult?
+                                    <span class="icon">+</span>
+                                </button>
+                                <div class="faq-answer">
+                                    <p>
+                                        BSCS requires logical thinking and programming skills, but with proper guidance
+                                        and
+                                        practice, students can succeed.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- Conclusion -->
+            <div>
+                <h2 class="text-center mt-5">Conclusion</h2>
+                <p>
+                    Virtual University of Pakistan continues to be a leading choice for students seeking flexible,
+                    affordable,
+                    and
+                    recognized higher education in 2026. Whether you are searching for virtual university admission
+                    details,
+                    fee
+                    structure,
+                    VULMS login process, solved MCQs, past papers, GDB solutions, or LMS guidance, this complete
+                    platform
+                    provides
+                    everything in one place.
+                </p>
+                <p>
+                    For BSCS, BBA, MCS, MBA, and Associate Degree students, Virtual University offers a modern academic
+                    environment supported by digital infrastructure and nationwide exam centers.
+                </p>
+                <p>
+                    If you want quality education without the limitations of traditional on campus learning, the Virtual
+                    University of
+                    Pakistan is one of the best options available today.
+
+                </p>
+            </div>
         </div>
     </main>
     <!-- Main End code  -->
-<footer style="background-color: rgba(0, 0, 0, 0.2);" class="mt-5">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-5">
-                <div class="d-flex flex-column align-items-sm-center me-5 me-sm-0 ms-sm-0 ms-2">
-                    <img src="/assets/img/logo.png" alt="logo" width="100">
-                    <p class="text-sm-center px-md-5 mx-md-5">Your goto hub for everything Virtual University. Get the
-                        latest news, study tips, exam updates, and all the VU insights
-                        you need, all in one place.
-                    </p>
+    <footer style="background-color: rgba(0, 0, 0, 0.2);" class="mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="d-flex flex-column align-items-sm-center me-5 me-sm-0 ms-sm-0 ms-2">
+                        <img src="/assets/img/logo.png" alt="logo" width="100">
+                        <p class="text-sm-center px-md-5 mx-md-5">Your goto hub for everything Virtual University. Get
+                            the
+                            latest news, study tips, exam updates, and all the VU insights
+                            you need, all in one place.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-7">
-                <div
-                    class="d-flex flex-column justify-content-sm-between align-items-sm-center pt-md-5 pt-0 mt-md-5 mt-0 ps-2 ps-md-0">
-                    <ul class="list-unstyled d-sm-flex gap-3">
-                        <li class="pb-2 pb-md-0"><a href="/footer/about/" class="text-dark text-decoration-none">About
-                                Us</a>
-                        </li>
-                        <li class="pb-2 pb-md-0"><a href="/footer/term & condition/"
-                                class="text-dark text-decoration-none">Terms &
-                                Condition</a></li>
-                        <li class="pb-2 pb-md-0"><a href="/footer/privacy policy/"
-                                class="text-dark text-decoration-none">Privacy
-                                Policy</a>
-                        </li>
-                        <li class="pb-2 pb-md-0"><a href="/footer/contact/"
-                                class="text-dark text-decoration-none">Contact
-                                Us</a>
-                        </li>
-                    </ul>
-                    <ul class="list-unstyled d-flex gap-3 ">
+                <div class="col-12 col-md-7">
+                    <div
+                        class="d-flex flex-column justify-content-sm-between align-items-sm-center pt-md-5 pt-0 mt-md-5 mt-0 ps-2 ps-md-0">
+                        <ul class="list-unstyled d-sm-flex gap-3">
+                            <li class="pb-2 pb-md-0"><a href="/footer/about/"
+                                    class="text-dark text-decoration-none">About
+                                    Us</a>
+                            </li>
+                            <li class="pb-2 pb-md-0"><a href="/footer/term & condition/"
+                                    class="text-dark text-decoration-none">Terms &
+                                    Condition</a></li>
+                            <li class="pb-2 pb-md-0"><a href="/footer/privacy policy/"
+                                    class="text-dark text-decoration-none">Privacy
+                                    Policy</a>
+                            </li>
+                            <li class="pb-2 pb-md-0"><a href="/footer/contact/"
+                                    class="text-dark text-decoration-none">Contact
+                                    Us</a>
+                            </li>
+                        </ul>
+                        <ul class="list-unstyled d-flex gap-3 ">
 
-                        <li><a
-                                href="https://api.whatsapp.com/send/?phone=%2B923441163937&text&type=phone_number&app_absent=0"><img
-                                    src="/assets/img/whatsapp.svg" alt="WA"></a></li>
-                        <li><a href="https://chat.whatsapp.com/LxhilVVLBvB9K6ilyxOoVr?mode=gi_t"><img
-                                    src="/assets/img/group.svg" alt="WA Group"></a></li>
-                        <li><a href="https://whatsapp.com/channel/0029Vb4IZqM17EmxTkFA1F1L">
-                                <svg viewBox="0 0 24 24" height="20px" width="20px" preserveAspectRatio="xMidYMid meet"
-                                    class="" fill="none">
-                                    <path
-                                        d="M21.9218 10.6469C21.321 6.08949 17.5557 2.45561 12.9894 2.04404C7.06124 1.50197 2.16447 6.05937 2.05432 11.982C2.01426 14.1101 2.82538 15.9371 3.23595 16.7201L2.0443 20.6651C1.81398 21.4281 2.52497 22.1408 3.28602 21.9099L7.17139 20.7455C8.65344 21.5686 10.3157 22.0002 12.0181 22.0002C17.9663 22.0002 22.7129 16.7602 21.9118 10.6469H21.9218ZM8.06262 14.6823C8.333 15.0838 8.30296 15.6259 7.96249 15.9672C7.51186 16.429 6.76082 16.3386 6.40033 15.7966C5.66931 14.7124 5.23872 13.3974 5.23872 11.992C5.23872 10.5867 5.69936 9.17125 6.49045 8.057C6.84093 7.56512 7.57195 7.53501 8.00254 7.96665C8.35302 8.318 8.38307 8.86007 8.10268 9.2616C7.56193 10.0346 7.2515 10.9782 7.2515 11.992C7.2515 13.0059 7.56193 13.9093 8.08265 14.6723L8.06262 14.6823ZM12.0682 13.4978C11.237 13.4978 10.5661 12.8252 10.5661 11.992C10.5661 11.1588 11.237 10.4863 12.0682 10.4863C12.8993 10.4863 13.5702 11.1588 13.5702 11.992C13.5702 12.8252 12.8993 13.4978 12.0682 13.4978ZM17.5257 15.9471C17.1752 16.439 16.4442 16.4691 16.0236 16.0375C15.6731 15.6861 15.6431 15.1441 15.9235 14.7425C16.4642 13.9696 16.7847 13.0159 16.7847 12.0021C16.7847 10.9882 16.4542 10.0145 15.9035 9.24152C15.6131 8.82995 15.6331 8.27784 15.9836 7.91646C16.4042 7.49485 17.1252 7.51493 17.4857 8.00681C18.3068 9.1311 18.7875 10.5064 18.7875 12.0121C18.7875 13.5179 18.3168 14.8429 17.5257 15.9572V15.9471Z"
-                                        fill="Black"></path>
-                                </svg></a></li>
-                        <li><a href="https://www.facebook.com/share/17BkB7ZfvP/?mibextid=wwXIfr"><img
-                                    src="/assets/img/facebook.svg" alt="FB"></a></li>
-                        <li><a href="https://www.tiktok.com/@vuupdatestech?_t=ZS-90C5eZqkoQ3&_r=1"><img
-                                    src="/assets/img/tiktok.svg" alt="TT"></a></li>
-                        <li><a href="https://www.instagram.com/vuupdatestech84?igsh=aTUyNWVhemF0dnQ1&utm_source=qr"><img
-                                    src="/assets/img/instagram.svg" alt="IG"></a></li>
-                        <li><a href="https://youtube.com/@vuupdatestech?si=DOGgBpBT-P00MAR2"><img
-                                    src="/assets/img/youtube.svg" alt="YT"></a></li>
-                    </ul>
+                            <li><a
+                                    href="https://api.whatsapp.com/send/?phone=%2B923441163937&text&type=phone_number&app_absent=0"><img
+                                        src="/assets/img/whatsapp.svg" alt="WA"></a></li>
+                            <li><a href="https://chat.whatsapp.com/LxhilVVLBvB9K6ilyxOoVr?mode=gi_t"><img
+                                        src="/assets/img/group.svg" alt="WA Group"></a></li>
+                            <li><a href="https://whatsapp.com/channel/0029Vb4IZqM17EmxTkFA1F1L">
+                                    <svg viewBox="0 0 24 24" height="20px" width="20px"
+                                        preserveAspectRatio="xMidYMid meet" class="" fill="none">
+                                        <path
+                                            d="M21.9218 10.6469C21.321 6.08949 17.5557 2.45561 12.9894 2.04404C7.06124 1.50197 2.16447 6.05937 2.05432 11.982C2.01426 14.1101 2.82538 15.9371 3.23595 16.7201L2.0443 20.6651C1.81398 21.4281 2.52497 22.1408 3.28602 21.9099L7.17139 20.7455C8.65344 21.5686 10.3157 22.0002 12.0181 22.0002C17.9663 22.0002 22.7129 16.7602 21.9118 10.6469H21.9218ZM8.06262 14.6823C8.333 15.0838 8.30296 15.6259 7.96249 15.9672C7.51186 16.429 6.76082 16.3386 6.40033 15.7966C5.66931 14.7124 5.23872 13.3974 5.23872 11.992C5.23872 10.5867 5.69936 9.17125 6.49045 8.057C6.84093 7.56512 7.57195 7.53501 8.00254 7.96665C8.35302 8.318 8.38307 8.86007 8.10268 9.2616C7.56193 10.0346 7.2515 10.9782 7.2515 11.992C7.2515 13.0059 7.56193 13.9093 8.08265 14.6723L8.06262 14.6823ZM12.0682 13.4978C11.237 13.4978 10.5661 12.8252 10.5661 11.992C10.5661 11.1588 11.237 10.4863 12.0682 10.4863C12.8993 10.4863 13.5702 11.1588 13.5702 11.992C13.5702 12.8252 12.8993 13.4978 12.0682 13.4978ZM17.5257 15.9471C17.1752 16.439 16.4442 16.4691 16.0236 16.0375C15.6731 15.6861 15.6431 15.1441 15.9235 14.7425C16.4642 13.9696 16.7847 13.0159 16.7847 12.0021C16.7847 10.9882 16.4542 10.0145 15.9035 9.24152C15.6131 8.82995 15.6331 8.27784 15.9836 7.91646C16.4042 7.49485 17.1252 7.51493 17.4857 8.00681C18.3068 9.1311 18.7875 10.5064 18.7875 12.0121C18.7875 13.5179 18.3168 14.8429 17.5257 15.9572V15.9471Z"
+                                            fill="Black"></path>
+                                    </svg></a></li>
+                            <li><a href="https://www.facebook.com/share/17BkB7ZfvP/?mibextid=wwXIfr"><img
+                                        src="/assets/img/facebook.svg" alt="FB"></a></li>
+                            <li><a href="https://www.tiktok.com/@vuupdatestech?_t=ZS-90C5eZqkoQ3&_r=1"><img
+                                        src="/assets/img/tiktok.svg" alt="TT"></a></li>
+                            <li><a href="https://www.instagram.com/vuupdatestech84?igsh=aTUyNWVhemF0dnQ1&utm_source=qr"><img
+                                        src="/assets/img/instagram.svg" alt="IG"></a></li>
+                            <li><a href="https://youtube.com/@vuupdatestech?si=DOGgBpBT-P00MAR2"><img
+                                        src="/assets/img/youtube.svg" alt="YT"></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            <div class="text-center p-3">
+                © <span class="text-primary fw-bold">2026</span> Copyright: <b>VU Edu Tech</b>
+            </div>
         </div>
-        <div class="text-center p-3">
-            © <span class="text-primary fw-bold">2026</span> Copyright: <b>VU Edu Tech</b>
-        </div>
-    </div>
-</footer>
+    </footer>
     <script src="/assets/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
