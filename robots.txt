@@ -5,4 +5,4 @@ Disallow: /
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: http://vuedutech.com/sitemap.xml
+Sitemap: https://vuedutech.com/sitemap.xml
