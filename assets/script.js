@@ -96,8 +96,45 @@ function togglefaqs() {
     });
   });
 }
+// function searchbar() {
+//   let searchData = [];
+
+//   fetch("/searchbar.json")
+//     .then((response) => response.json())
+//     .then((data) => {
+//       searchData = data;
+//     });
+
+//   function searchContent() {
+//     let input = document.getElementById("searchInput").value.toLowerCase();
+//     let results = document.getElementById("results");
+
+//     results.innerHTML = "";
+
+//     if (input.length < 2) {
+//       return;
+//     }
+
+//     let filtered = searchData.filter((item) =>
+//       item.title.toLowerCase().includes(input),
+//     );
+
+//     filtered.forEach((item) => {
+//       results.innerHTML += `
+// <div class="result-item">
+// <a href="${item.url}">
+// <strong>${item.title}</strong>
+// <br>
+// <small>${item.type}</small>
+// </a>
+// </div>
+// `;
+//     });
+//   }
+// }
 // Run Functions
 accordionHover();
 typingAnimation();
 toggleSeeMore();
 togglefaqs();
+// searchbar();

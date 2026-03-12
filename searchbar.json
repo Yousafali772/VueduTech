@@ -1,0 +1,27 @@
+[
+  {
+    "title": "CS101 Handout",
+    "type": "Handout",
+    "url": "/handouts/cs101-handout.html"
+  },
+  {
+    "title": "CS101 Highlighted Handout",
+    "type": "Highlighted Handout",
+    "url": "/highlighted-handouts/cs101-highlighted.html"
+  },
+  {
+    "title": "CS101 Midterm Paper",
+    "type": "Midterm",
+    "url": "/midterm/cs101-midterm.html"
+  },
+  {
+    "title": "CS101 Final Term Paper",
+    "type": "Final Term",
+    "url": "/finalterm/cs101-final.html"
+  },
+  {
+    "title": "CS101 Lecture Video",
+    "type": "Video",
+    "url": "/videos/cs101-video.html"
+  }
+]
