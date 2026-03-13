@@ -115,7 +115,7 @@ body {
     .card-title-css {
         font-size: 18px;
         font-weight: 600;
-        color: rgb(124, 77, 224);
+        color: rgb(124, 77, 224) !important;
         margin-bottom: 12px;
         letter-spacing: -0.2px;
     }
