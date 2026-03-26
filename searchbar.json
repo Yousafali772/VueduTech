@@ -1,27 +1,48 @@
 [
   {
-    "title": "CS101 Handout",
+    "title": "Handouts Notes (All)",
     "type": "Handout",
-    "url": "/handouts/cs101-handout.html"
+    "url": "/handout-notes/handout/"
   },
   {
-    "title": "CS101 Highlighted Handout",
+    "title": "CS101",
+    "type": "Handout",
+    "url": "https://drive.google.com/file/d/1iw1mgELM57_EBAZlNdW1kuRFfUATKIBx/view?usp=drive_link"
+  },
+  {
+    "title": "CS101",
     "type": "Highlighted Handout",
-    "url": "/highlighted-handouts/cs101-highlighted.html"
+    "url": "https://drive.google.com/file/d/1iw1mgELM57_EBAZlNdW1kuRFfUATKIBx/view?usp=drive_link"
+  },
+
+  {
+    "title": "Highlighted Handouts (All)",
+    "type": "Highlighted Handout",
+    "url": "/handout-notes/highlight-handout/"
   },
   {
-    "title": "CS101 Midterm Paper",
-    "type": "Midterm",
-    "url": "/midterm/cs101-midterm.html"
-  },
-  {
-    "title": "CS101 Final Term Paper",
-    "type": "Final Term",
-    "url": "/finalterm/cs101-final.html"
-  },
-  {
-    "title": "CS101 Lecture Video",
+    "title": "Short Video Lectures",
     "type": "Video",
-    "url": "/videos/cs101-video.html"
+    "url": "/handout-notes/short-vedio-lecture/"
+  },
+  {
+    "title": "Midterm Past Papers",
+    "type": "Past Paper",
+    "url": "/past-papers/midterm-pastpapers/"
+  },
+  {
+    "title": "Finalterm Past Papers",
+    "type": "Past Paper",
+    "url": "/past-papers/finalterm-pastpapers/"
+  },
+  {
+    "title": "Midterm Past Papers Videos",
+    "type": "Past Paper Videos",
+    "url": "/past-papers/midterm-pastpapers-video/"
+  },
+  {
+    "title": "Finalterm Past Papers Videos",
+    "type": "Past Paper Videos",
+    "url": "/past-papers/finalterm-pastpapers-video/"
   }
 ]
