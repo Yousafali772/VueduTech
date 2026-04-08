@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 12px 25px 12px 10px; /* right side space for icon */
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+
+/* 🔥 Icon RIGHT side */
+.search-icon {
+    position: absolute;
+    right: -17px;   /* yahan control hota hai */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="search-wrapper">
+        <input type="text" id="searchBar" placeholder="Search course..." />
+        <span class="search-icon">🔍</span>
+    </div>
+</body>
+</html>

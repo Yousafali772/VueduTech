@@ -324,6 +324,34 @@ function searchContent() {
     `;
   });
 }
+document.addEventListener("DOMContentLoaded", function () {
+  var searchBar = document.getElementById("searchBar");
+
+  searchBar.addEventListener("keyup", function () {
+    var input = this.value.toLowerCase().trim();
+    var courses = document.querySelectorAll(".course-item");
+
+    courses.forEach(function (course) {
+      var nameEl = course.querySelector(".course-name");
+      var codeEl = course.querySelector(".course-code");
+
+      var courseName = nameEl ? nameEl.textContent.toLowerCase() : "";
+      var courseCode = codeEl ? codeEl.textContent.toLowerCase() : "";
+
+      // better matching
+      var words = courseName.split(" ");
+      var nameMatch = words.some((word) => word.startsWith(input));
+      var codeMatch = courseCode.includes(input);
+
+      if (nameMatch || codeMatch || input === "") {
+        course.style.display = "";
+      } else {
+        course.style.display = "none";
+      }
+    });
+  });
+});
+
 // Run Functions
 accordionHover();
 typingAnimation();
