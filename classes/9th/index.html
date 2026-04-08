@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Search Demo</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        #searchBar {
+            padding: 10px;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .course-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Course List</h1>
+
+    <input type="text" id="searchBar" placeholder="Search course...">
+
+    <div class="course-list">
+
+        <div class="course-item">
+            <div>Computer Science 101</div>
+            <div class="course-code">CS101</div>
+        </div>
+
+        <div class="course-item">
+            <div>Management 101</div>
+            <div class="course-code">MGT101</div>
+        </div>
+
+        <div class="course-item">
+            <div>Web Development</div>
+            <div class="course-code">WEB202</div>
+        </div>
+
+        <div class="course-item">
+            <div>Marketing Basics</div>
+            <div class="course-code">MKT303</div>
+        </div>
+
+    </div>
+
+    <script>
+       document.addEventListener('DOMContentLoaded', function () {
+
+            var searchBar = document.getElementById('searchBar');
+
+            if (searchBar) {
+                searchBar.addEventListener('keyup', function () {
+
+                    var input = this.value.toLowerCase().trim();
+                    var courses = document.querySelectorAll('.course-item');
+
+                    courses.forEach(function (course) {
+
+                        var courseName = course.children[0]?.textContent.toLowerCase() || '';
+                        var courseCode = course.querySelector('.course-code')?.textContent.toLowerCase() || '';
+
+                        // split words (Computer Science -> ["computer", "science"])
+                        var words = courseName.split(" ");
+
+                        // check if any word starts with input
+                        var nameMatch = words.some(function (word) {
+                            return word.startsWith(input);
+                        });
+
+                        // check course code
+                        var codeMatch = courseCode.startsWith(input);
+
+                        if (nameMatch || codeMatch || input === "") {
+                            course.style.display = '';
+                        } else {
+                            course.style.display = 'none';
+                        }
+
+                    });
+
+                });
+            }
+
+        });
+    </script>
+
+</body>
+
+</html>
